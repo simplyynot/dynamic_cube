@@ -1,6 +1,6 @@
 var init = function() {
-  var box = document.querySelector('.container').children[0],
-      showPanelButtons = document.querySelectorAll('#show-buttons button'),
+  var box = document.querySelector('#main_content').children[0],
+      showPanelButtons = document.querySelectorAll('div #show-buttons'),
       panelClassName = 'show-front',
 
       onButtonClick = function( event ){
